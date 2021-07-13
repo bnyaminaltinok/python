@@ -4,4 +4,4 @@ COPY requirements.txt /app/requirements.txt
 RUN pip install -r requirements.txt
 COPY . /app
 CMD ["python", "./launch.py"]
-EXPOSE 5000
+EXPOSE 5002

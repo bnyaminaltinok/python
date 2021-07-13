@@ -23,4 +23,4 @@ spec:
       - name: python
         image: bunyaminaltinok/pyt:v$DOCKER_BUILD_NUMBER
         ports:
-        - containerPort: 5000
+        - containerPort: 5002
