@@ -17,10 +17,10 @@ okk
 def run():
     return jsonify(veri)
 if __name__ == "__main__":
-    helloworld.run(host="0.0.0.0", port=int("5002"), debug=True)
+    helloworld.run(host="0.0.0.0", port=int("5000"), debug=True)
 
 @helloworld.route("/healtcheck")
 def run():
     return jsonify(healtcheck)
 if __name__ == "__main__":
-    helloworld.run(host="0.0.0.0", port=int("5001"), debug=True)
+    helloworld.run(host="0.0.0.0", port=int("5000"), debug=True)

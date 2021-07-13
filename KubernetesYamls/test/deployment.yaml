@@ -23,4 +23,4 @@ spec:
       - name: bootcamp-python
         image: bunyaminaltinok/pyt:v$DOCKER_BUILD_NUMBER
         ports:
-        - containerPort: 5002
+        - containerPort: 5000
